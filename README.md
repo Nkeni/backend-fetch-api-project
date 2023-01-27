@@ -1,3 +1,3 @@
 # backend-fetch-api-project
-A recipe app.
-I am using recipe api from backend to display details about the food entered in front end
+<h1> A github user search app...</h1>
+<p>I am using an Github api from backend to post result to the front end after a request is being submitted</p>
