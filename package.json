@@ -1,0 +1,20 @@
+{
+  "name": "backend-fetch-api-project",
+  "version": "1.0.0",
+  "description": "A recipe app. I am using recipe api from backend to display details about the food entered in front end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nkeni/backend-fetch-api-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nkeni/backend-fetch-api-project/issues"
+  },
+  "homepage": "https://github.com/Nkeni/backend-fetch-api-project#readme"
+}
