@@ -32,12 +32,17 @@ function App() {
   };
   return (
     <Container className="App">
-      <h2>Look for a github user</h2>
+      <h2>Search for a github user</h2>
       <Row>
         <Col xl="6" className="input-container">
           <Form onSubmit={submitHandler} className="main-form">
-            <input ref={inputValue} type="text" placeholder="write a name..." />
-            <Button onClick={buttonHandler} variant="primary">
+            <input
+              ref={inputValue}
+              type="text"
+              placeholder="write a name..."
+              required
+            />
+            <Button onClick={buttonHandler} variant="outline-success">
               Submit
             </Button>
           </Form>
@@ -46,7 +51,10 @@ function App() {
           {gituser && (
             <div className="details">
               <ListGroup>
-                <ListGroup.Item className="d-flex justify-content-between align-items-start">
+                <ListGroup.Item
+                  className="d-flex justify-content-between align-items-start"
+                  variant="dark"
+                >
                   <div className="ms-2 me-auto">
                     <div className="fw-bold">
                       <p>Username:</p>
@@ -64,7 +72,10 @@ function App() {
                   </div>
                 </ListGroup.Item>
 
-                <ListGroup.Item className="d-flex justify-content-between align-items-start">
+                <ListGroup.Item
+                  className="d-flex justify-content-between align-items-start"
+                  variant="dark"
+                >
                   <div className="ms-2 me-auto">
                     <div className="fw-bold">
                       <p>UserId:</p>
@@ -82,7 +93,10 @@ function App() {
                   </div>
                 </ListGroup.Item>
 
-                <ListGroup.Item className="d-flex justify-content-between align-items-start">
+                <ListGroup.Item
+                  className="d-flex justify-content-between align-items-start"
+                  variant="dark"
+                >
                   <div className="ms-2 me-auto">
                     <div className="fw-bold">
                       <p>Public repos:</p>
